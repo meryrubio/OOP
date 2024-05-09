@@ -2,21 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Sukamon : MonoBehaviour
+public class Sukamon : Character
 {
-    public Sukamon() : base("Sukamon", 1, Resources.Load<Sprite>("Sprites/Sukamon")) 
+    public Sukamon() : base("Sukamon", 1, Resources.Load<Sprite>("Sprites/Sukamon")
     {
         //por la estructura de ->public Character(string name, float damage, Sprite sprite) sabemos que se name: Sukamon, y el float damage: 1
 
     }
     public override float Attack()
     {
-
+        return 0;
     }
 
-    public override float Heal()
-    {
+    //public override float Heal()
+    //{
 
-    }
+    //}
 }
-}
+
