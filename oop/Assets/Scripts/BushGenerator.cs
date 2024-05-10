@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BushGenerator : MonoBehaviour
 {
-
+    public GameObject enemyPrefab;// prefab del enemigo
     public GameObject bushPrefab; // prefab del arbusto
     public int rows = 5; // Número de filas
     public int cols = 5; // Número de columnas
@@ -24,10 +24,6 @@ public class BushGenerator : MonoBehaviour
                 spawnPosition += transform.position; // ajustar posición 
                 Instantiate(bushPrefab, spawnPosition, Quaternion.identity); // Instanciar el arbusto en la posición 
 
-                if (Random.Range(0f, 1f) < 0.5f)// 50% de probabilidad
-                {
-                    bushPrefab.AddComponent<StartCombat>();
-                } 
             }
         }
     }
