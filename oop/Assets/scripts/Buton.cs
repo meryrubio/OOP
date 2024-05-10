@@ -17,13 +17,13 @@ public class Buton : MonoBehaviour
     }
     private void Update()
     {
-        if(textoNombre.text.Length < 4)
+        if(textoNombre.text.Length < 4) // si el nombre tiene menos de 4 caracteres el boton estara en rojo y no te dejara darle a jugar
         {
             luz.color = Color.red;
             botonPLAY.SetActive(false);
 
         }
-        if (textoNombre.text.Length < 4)
+        else //cnd tenga mas de 4 se pondra el boton verde y podras jugar 
         {
             luz.color = Color.green;
             botonPLAY.SetActive(true);
@@ -32,6 +32,6 @@ public class Buton : MonoBehaviour
     public void PLAY()
     {
         PlayerPrefs.SetString("nombre1", inputText.text);
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("juego"); //cnd le des a juagar se cambiara la escena 
     }
 }
