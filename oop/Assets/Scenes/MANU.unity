@@ -347,12 +347,10 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
-    - m_Text: Option A
-      m_Image: {fileID: 0}
-    - m_Text: Option B
-      m_Image: {fileID: 0}
-    - m_Text: Option C
-      m_Image: {fileID: 0}
+    - m_Text: ' Guerrero'
+      m_Image: {fileID: 21300000, guid: 470263c59dc770c49bf4975ea7881ffb, type: 3}
+    - m_Text: Soldado
+      m_Image: {fileID: 21300000, guid: afffc6b6f4b47254e8597e029270f5e3, type: 3}
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -985,7 +983,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Personaje
+  m_text: ' Guerrero'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
