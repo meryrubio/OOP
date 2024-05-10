@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PooTest : MonoBehaviour
+{
+
+}
 //{
     //public class PooTest : MonoBehaviour
     //{

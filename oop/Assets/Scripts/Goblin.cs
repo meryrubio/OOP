@@ -10,7 +10,15 @@ public class Goblin : Character
     }
     public override float Attack()
     {
-        return 0;
+        if(health<20)
+        {
+            return damage * 3;
+        }
+        else
+        {
+            return damage;
+        }
+
     }
 }
 

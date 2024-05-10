@@ -5,12 +5,12 @@ using UnityEngine;
 public class BushGenerator : MonoBehaviour
 {
 
-    public GameObject bushPrefab; // El prefab del arbusto
+    public GameObject bushPrefab; // prefab del arbusto
     public int rows = 5; // Número de filas
     public int cols = 5; // Número de columnas
-    public float spacing = 2f; // Espaciado entre los arbustos
+    public float spacing = 2f; // espaciado entre arbustos
 
-    public void Update()
+    public void Start()
     {
         GenerateBushes();
     }
@@ -20,9 +20,14 @@ public class BushGenerator : MonoBehaviour
         {
             for (int col = 0; col < cols; col++)
             {
-                Vector3 spawnPosition = new Vector3(row * spacing, 0f, col * spacing); // Posición de instanciación
-                spawnPosition += transform.position; // Ajustar posición global
-                Instantiate(bushPrefab, spawnPosition, Quaternion.identity); // Instanciar el arbusto en la posición calculada
+                Vector3 spawnPosition = new Vector3(row * spacing, col * spacing, 0f); // Posición de instanciación
+                spawnPosition += transform.position; // ajustar posición 
+                Instantiate(bushPrefab, spawnPosition, Quaternion.identity); // Instanciar el arbusto en la posición 
+
+                if (Random.Range(0f, 1f) < 0.5f)// 50% de probabilidad
+                {
+                    bushPrefab.AddComponent<StartCombat>();
+                } 
             }
         }
     }
