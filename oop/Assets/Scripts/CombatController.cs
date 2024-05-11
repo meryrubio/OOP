@@ -4,15 +4,46 @@ using UnityEngine;
 
 public class CombatController : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject player;
+    public GameObject enemy;
 
-    // Update is called once per frame
+    private bool playerTurn = true;
+    private bool combatEnded = false;
     void Update()
     {
-        
+        if (!combatEnded)
+        {
+            if (playerTurn)
+            {
+               
+                if (Input.GetMouseButtonDown(0)) // ataca
+                {
+                    //Attack(player, enemy);
+                    playerTurn = false;
+                    //Invoke("EnemyTurn", 1f); 
+                }
+                else if (Input.GetMouseButtonDown(1)) // curarse
+                {
+                    //Heal(player);
+                    playerTurn = false;
+                  /*  Invoke("EnemyTurn", 1f);*/ 
+                }
+            }
+           
+            else
+            {
+                int randomAction = Random.Range(0, 2); // 0  para atacar, 1 curarse
+                if (randomAction == 0)
+                {
+                    //Attack(enemy, player);
+                }
+                else
+                {
+                    //Heal(enemy);
+                }
+                playerTurn = true;
+            }
+        }
     }
+
 }
