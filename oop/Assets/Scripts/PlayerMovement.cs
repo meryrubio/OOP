@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D _rb;
     private Vector2 _dir;
     public KeyCode leftKey = KeyCode.A, rightKey = KeyCode.D;
+    public float speed;
 
     public Character character;
 

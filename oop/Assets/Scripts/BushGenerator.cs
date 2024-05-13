@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BushGenerator : MonoBehaviour
 {
-    public GameObject enemyPrefab;// prefab del enemigo
+   
     public GameObject bushPrefab; // prefab del arbusto
     public int rows = 5; // Número de filas
     public int cols = 5; // Número de columnas

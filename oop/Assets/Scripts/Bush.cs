@@ -16,6 +16,13 @@ public class Bush : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        if(collision.GetComponent<PlayerMovement>()) 
+        {
+            int randomNumber = Random.Range(1, 11); // 
+            if (randomNumber % 2 != 0) // si es impar
+            {
+                StartCombatGame();
+            }
+        }
     }
 }
