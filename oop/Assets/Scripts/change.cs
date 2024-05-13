@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class change : MonoBehaviour
+{
+    public static change Intance;
+    private void Awake()
+    {
+        if (change.Intance == null)
+        {
+            change.Intance = this;
+            DontDestroyOnLoad(this.gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+}

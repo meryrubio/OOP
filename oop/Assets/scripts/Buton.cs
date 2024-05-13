@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -28,7 +29,10 @@ public class Buton : MonoBehaviour
             luz.color = Color.green;
             botonPLAY.SetActive(true);
         }
+        
+       
     }
+
     public void PLAY()
     {
         PlayerPrefs.SetString("nombre1", inputText.text);
