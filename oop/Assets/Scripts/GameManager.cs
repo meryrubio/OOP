@@ -8,12 +8,16 @@ public enum CharacterType //tipo enumerado, le puede poner nombres a los numeros
 {
     WIZARD, COWBOY
 }
+public enum GameManagerVariables { HEAL, ATTACK }
 
 public class GameManager : MonoBehaviour
 {
+    private int heal;
 
     public static GameManager instance; // accesible a todo (variable estática) SINGLETON
     public CharacterType characterType;
+
+    public static object GameManagerVariables { get; internal set; }
 
     private void Awake()
     {
@@ -51,5 +55,10 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("EXIT!!");
         Application.Quit();// cierra la aplicación
+    }
+
+    public void GetHeal(int heal)
+    {
+       //return heal;
     }
 }
