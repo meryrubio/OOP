@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: 4ad70be579e4b134e8f0f6c6ec02566f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_0
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 262
+        width: 101
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7770f930b6394564f8dba55a53cfccfc
+      internalID: -823665514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_1
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 253
+        width: 86
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d30a9a0f2275f42938cd4767c9811c
+      internalID: 1947564707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 247
+        width: 87
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5513b24e1af9139408461fd87a543aa8
+      internalID: 327605207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_3
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 258
+        width: 74
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fc6991ff3202634780f14da271cff82
+      internalID: 766622154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_4
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 159
+        width: 117
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982e8e430288b334290e10376948b21b
+      internalID: 597565553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_5
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 201
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354bf95492ab70c44a850f27e0072f77
+      internalID: 1525494324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_6
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 163
+        width: 132
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a094c323136554dae25f4b01c75288
+      internalID: -99938118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_7
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 130
+        width: 80
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e60538bd8e90fa4881b6f1641d2385b
+      internalID: 1288387993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 26
+        width: 117
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9efc29392df61459a81cb54caf401d
+      internalID: 155790560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 107
+        width: 128
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e8f8049bc34ee4bbb7fbbe2754a1b0
+      internalID: 2103972242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_10
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 25
+        width: 82
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2f6f8a03d266041a3176e11b3be6ec
+      internalID: -524200507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_11
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 31
+        width: 86
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b626c6ed88947ee45a172bfea58f3f18
+      internalID: -803458340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_12
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 23
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60525f5c4bf08ee46b1251e7b25451d1
+      internalID: 101024287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_0: -823665514
+      pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_1: 1947564707
+      pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_10: -524200507
+      pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_11: -803458340
+      pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_12: 101024287
+      pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_2: 327605207
+      pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_3: 766622154
+      pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_4: 597565553
+      pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_5: 1525494324
+      pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_6: -99938118
+      pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_7: 1288387993
+      pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_8: 155790560
+      pngtree-garden-bush-shrubs-hedge-tree-png-image_5400009_9: 2103972242
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

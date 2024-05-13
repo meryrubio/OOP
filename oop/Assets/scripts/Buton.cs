@@ -34,4 +34,8 @@ public class Buton : MonoBehaviour
         PlayerPrefs.SetString("nombre1", inputText.text);
         SceneManager.LoadScene("juego"); //cnd le des a juagar se cambiara la escena 
     }
+    public void LoadCharacter(int CharacterName)
+    {
+        GameManager.instance.characterType = (CharacterType)CharacterName;
+    }
 }
