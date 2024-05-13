@@ -17,7 +17,7 @@ public class Buton : MonoBehaviour
     }
     private void Update()
     {
-        if(textoNombre.text.Length < 4) // si el nombre tiene menos de 4 caracteres el boton estara en rojo y no te dejara darle a jugar
+        if (textoNombre.text.Length < 4) // si el nombre tiene menos de 4 caracteres el boton estara en rojo y no te dejara darle a jugar
         {
             luz.color = Color.red;
             botonPLAY.SetActive(false);
@@ -29,13 +29,18 @@ public class Buton : MonoBehaviour
             botonPLAY.SetActive(true);
         }
     }
-    public void PLAY()
+    //public void PLAY()
+    //{
+    //    PlayerPrefs.SetString("nombre1", inputText.text);
+    //    SceneManager.LoadScene("Game"); //cnd le des a juagar se cambiara la escena 
+    //}
+    public void ChangeScene(string NameScene)
     {
-        PlayerPrefs.SetString("nombre1", inputText.text);
-        SceneManager.LoadScene("juego"); //cnd le des a juagar se cambiara la escena 
-    }
-    public void LoadCharacter(int CharacterName)
-    {
-        GameManager.instance.characterType = (CharacterType)CharacterName;
+        SceneManager.LoadScene(NameScene);
     }
 }
+//    public void LoadCharacter(int CharacterName)
+//    {
+//        GameManager.instance.characterType = (CharacterType)CharacterName;
+//    }
+//}
