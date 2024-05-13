@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 _dir;
     public KeyCode leftKey = KeyCode.A, rightKey = KeyCode.D;
 
-    Characters.Character charcater;
+    public Character character;
 
     SpriteRenderer rend;
     Animator animator;
@@ -20,13 +20,13 @@ public class PlayerMovement : MonoBehaviour
         animator = GetComponent<Animator>();
 
         //programamos un if para elegir para la funcion del boton para elegir el personaje
-        if (GameManager.instance.characterType == Characters.WIZARD)
+        if (GameManager.instance.characterType == CharacterType.WIZARD)
         {
-            character = new Characters.Wizard(speed, GetComponent<Rigidbody2D>());
+            character = new Wizard(1.5f);
         }
-        else if (GameManager.instance.characterType == Characters.COWBOY)
+        else if (GameManager.instance.characterType == CharacterType.COWBOY)
         {
-            character = new Characters.Cowboy(speed, GetComponent<Rigidbody2D>());
+            character = new Cowboy();
         }
        
 

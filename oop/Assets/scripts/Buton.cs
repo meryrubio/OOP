@@ -36,6 +36,6 @@ public class Buton : MonoBehaviour
     }
     public void LoadCharacter(int CharacterName)
     {
-        GameManager.instance.characterType = (Characters)CharacterName;
+        GameManager.instance.characterType = (CharacterType)CharacterName;
     }
 }

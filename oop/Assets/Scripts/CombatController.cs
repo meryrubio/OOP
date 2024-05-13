@@ -11,13 +11,10 @@ public class CombatController : MonoBehaviour
     private bool combatEnded = false;
     void Update()
     {
-        if (!combatEnded)
-        {
-            if (playerTurn)
-            {
                
                 if (Input.GetMouseButtonDown(0)) // ataca
                 {
+
                     //Attack(player, enemy);
                     playerTurn = false;
                     //Invoke("EnemyTurn", 1f); 
@@ -28,10 +25,8 @@ public class CombatController : MonoBehaviour
                     playerTurn = false;
                   /*  Invoke("EnemyTurn", 1f);*/ 
                 }
-            }
+            
            
-            else
-            {
                 int randomAction = Random.Range(0, 2); // 0  para atacar, 1 curarse
                 if (randomAction == 0)
                 {
@@ -42,7 +37,7 @@ public class CombatController : MonoBehaviour
                     //Heal(enemy);
                 }
                 playerTurn = true;
-            }
+            
         }
     }
 

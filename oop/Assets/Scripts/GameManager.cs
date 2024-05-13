@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 [System.Serializable]
-public enum Characters //tipo enumerado, le puede poner nombres a los numeros: el 0=wizard, 1= cowboy
+public enum CharacterType //tipo enumerado, le puede poner nombres a los numeros: el 0=wizard, 1= cowboy
 {
     WIZARD, COWBOY
 }
@@ -13,7 +13,7 @@ public class GameManager : MonoBehaviour
 {
 
     public static GameManager instance; // accesible a todo (variable estática) SINGLETON
-
+    public CharacterType characterType;
 
     private void Awake()
     {
