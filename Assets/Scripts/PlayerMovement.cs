@@ -20,16 +20,16 @@ public class PlayerMovement : MonoBehaviour
         rend = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
 
-        //programamos un if para elegir para la funcion del boton para elegir el personaje
-        if (GameManager.instance.characterType == CharacterType.WIZARD)
-        {
-            character = new Wizard(1.5f);
-        }
-        else if (GameManager.instance.characterType == CharacterType.COWBOY)
-        {
-            character = new Cowboy();
-        }
-       
+        ////programamos un if para elegir para la funcion del boton para elegir el personaje
+        //if (GameManager.instance.characterType == CharacterType.WIZARD)
+        //{
+        //    character = new Wizard(1.5f);
+        //}
+        //else if (GameManager.instance.characterType == CharacterType.COWBOY)
+        //{
+        //    character = new Cowboy();
+        //}
+
 
         rend.sprite = character.GetSprite();
         
