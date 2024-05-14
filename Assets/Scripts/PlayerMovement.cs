@@ -5,11 +5,13 @@ using UnityEngine.TextCore.Text;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public GameObject[] playerSprites;
     private Rigidbody2D _rb;
     private Vector2 _dir;
     public KeyCode leftKey = KeyCode.A, rightKey = KeyCode.D;
     public float speed;
 
+    private SpriteRenderer spriteRenderer;
     public Character character;
 
     SpriteRenderer rend;
@@ -19,6 +21,19 @@ public class PlayerMovement : MonoBehaviour
     {
         rend = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+
+        switch(GameManager.instance.characterType)
+        {
+            case CharacterType.WIZARD:
+                character = new Wizard(1);
+                break;
+            case CharacterType.COWBOY:
+                character = new Cowboy();
+                break;
+        }
+
+        spriteRenderer.sprite = character.GetSprite();
 
         ////programamos un if para elegir para la funcion del boton para elegir el personaje
         //if (GameManager.instance.characterType == CharacterType.WIZARD)
@@ -31,8 +46,8 @@ public class PlayerMovement : MonoBehaviour
         //}
 
 
-        rend.sprite = character.GetSprite();
-        
+        //rend.sprite = character.GetSprite();
+
 
     }
     void Movement()

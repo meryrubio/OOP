@@ -8,8 +8,8 @@ public class dropdown : MonoBehaviour
     private TMP_Dropdown dropdowwn;
     public void GetDropdownValue()
     {
-        int pickedEntryIndex = dropdowwn.value;
-        string selectedOptions = dropdowwn.options[pickedEntryIndex].text;
-        Debug.Log(selectedOptions);
+        //int pickedEntryIndex = dropdowwn.value;
+        //string selectedOptions = dropdowwn.options[pickedEntryIndex].text;
+        //Debug.Log(selectedOptions);
     }
 }
